@@ -1,0 +1,310 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*BATAS*/
+body{
+    margin: auto;
+}
+
+/* HOMPEG */
+section{
+    display: flex;
+}
+.background{
+    display: flex;
+    position: absolute;
+}
+.background, .textMid, section {
+    height: 100vh;
+    width: 100%;
+}
+.lGrayBox{
+
+    background-color: #DDDDDD;
+
+}
+.dGrayBox{
+
+    background-color: #727272;
+}
+.picPos{
+    align-items: center;
+    border-radius: 50%;
+    border: solid white;
+    width: 100%;
+    /* height: 100%; */
+}
+
+/*TEKS HOMPEG*/
+
+.textMid{
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.textDiv{
+    align-self: center;
+}
+.text-1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.text-2{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.text-3{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+
+/*ABOT MI PEG*/
+.ltGrayBox{
+     background-color: #E0E0E0;
+     height: 100%;
+     width: 100%;
+     display: flex;
+}
+.ltGrayBox img {
+    object-fit: cover;
+    margin: 50px;
+    width: 80%;
+    box-shadow: -1px 6px 10px #000;
+}
+.amText{
+    padding-top: 100px;
+}
+.abMe{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-bottom: 30px;
+}
+.abMeText{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #707070;
+    margin-top: 20px;
+}
+.amButton{
+    margin-top: 80px;
+}
+.line{
+    margin-top: -25px;
+    width: 165px;
+    border-bottom: 10px solid #707070;
+    display: block;
+    border-radius: 25px;
+}
+
+/*THIRD PART*/
+.lGBox{
+    background-color: #DDDDDD;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.amText2{
+    width: 550px;
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
+.line2{
+    margin-top: -25px;
+    width: 165px;
+    border-bottom: 10px solid #707070;
+    display: block;
+    border-radius: 25px;
+}
+.amButton2{
+    padding-top: 10%;
+}
+.thirdText{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-bottom: 30px;
+}
+.thirdP{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #707070;
+    margin-top: 20px;
+}
+.posText{
+    margin-top: 70px;
+    margin-left: 190px;
+}
+
+/*FOURTH PART*/
+.amText2{
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 10%;
+    text-align: center;
+}
+.line3{
+    margin-left: 32%;
+    width: 165px;
+    border-bottom: 10px solid #707070;
+    display: block;
+    border-radius: 25px;
+}
+
+/*FIFTH PART*/
+.fDark{
+    background-color: #727272;
+    height: 60%;
+    width: 100%;
+}
+.fLight{
+    background-color: #DDDDDD;
+    height: 40%;
+    width: 100%;
+}
+.fClosure{
+    height: 100%;
+    width: 100%;
+}
+.amText3{
+    width: 70%;
+    margin-left: 14%;
+    padding-top: 2cm;
+    text-align: center;
+
+}
+.abMe2{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.abMeText2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.abMe3{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #525252;
+}
+.abMeText3{
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #525252;
+}
+.fImg{
+    height: 80px;
+    width: 170px;
+}
+
+/*Button design*/
+
+body button{
+    width: 150px;
+    height: 8%;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition-duration: .60s;
+}
+
+.buttonOne{
+    width: 32%;
+    height: 32%;
+    border: 3px solid black;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: #DDDDDD;
+    background-image: url(buttonOne.jpg);
+    opacity: 50%;
+    font-size: 20px;
+    transition-duration: 0.60s;
+}
+.buttonTwo{
+    width: 32%;
+    height: 32%;
+    border: 3px solid black;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: #DDDDDD;
+    background-image: url(buttonTwo.jpg);
+    opacity: 50%;
+    font-size: 20px;
+    transition-duration: 0.60s;
+}
+.buttonThree{
+    width: 32%;
+    height: 32%;
+    border: 3px solid black;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: #DDDDDD;
+    background-image: url(buttonThree.jpeg);
+    opacity: 50%;
+    font-size: 20px;
+    transition-duration: 0.60s;
+}
+
+.shadow{
+    box-shadow: 0 10px 30px black;
+}
+button:hover{
+    box-shadow: 0 5px 10px black;
+    transform: scale(.95);
+}

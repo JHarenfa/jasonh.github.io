@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*BATAS*/
+body{
+    margin: auto;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+span{
+    margin-top: 1%;
+    width: 165px;
+    border-bottom: 10px solid #707070;
+    display: block;
+    border-radius: 25px;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: #DDDDDD;
+}
+p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #636363;
+}
+.genSki{
+    padding-top: 5%;
+    margin-left: 6%;
+}
+.lang{
+    line-height: 1cm;
+    margin-left: 8%;
+    padding-top: 3%;
+}
+.hed{
+    font-size: 45px;
+}
+.disFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.flexor{
+    width: 60%;
+    padding-top: 50px;
+}
+.flexor2{
+    padding-top: 50px;
+    display: flex;
+    width: 95%;
+}
+.marLef{
+    display: flex;
+    margin-left: 6%;
+}
+body button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    margin-left: 6%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition-duration: .60s;
+}
+img{
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+    transition-duration: .60s;
+}
+
+.graOne{
+    width: 38%;
+    height: 100%;
+    padding-right: 80px;
+}
+
+.graTwo{
+    width: 220px;
+    height: 220px;
+    padding-right: 20px;
+}
+
+.noWid{
+    padding-bottom: 20px;
+    height: 240px;
+    width: 80%;
+}
+
+button:hover{
+    box-shadow: 0 5px 10px black;
+    transform: scale(.95);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
