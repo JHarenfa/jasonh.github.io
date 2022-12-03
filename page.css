@@ -244,8 +244,12 @@ section{
     color: #525252;
 }
 .fImg{
-    height: 80px;
-    width: 170px;
+    height: 84px;
+    width: 7%;
+}
+.ytImg{
+    height: 70px;
+    width: 7%;
 }
 
 /*Button design*/
