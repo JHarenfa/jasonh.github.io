@@ -121,6 +121,11 @@ img{
     transition-duration: .60s;
 }
 
+video{
+    transition-duration: .60s;
+    object-fit: cover;
+}
+
 button:hover{
     box-shadow: 0 5px 10px black;
     transform: scale(.95);
